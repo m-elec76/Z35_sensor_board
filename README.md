@@ -1,7 +1,6 @@
 # Z35 Sensor Board — Wireless Environmental Sensor Node
 
 [![MCU](https://img.shields.io/badge/MCU-STM32G030-blue)](https://www.st.com/en/microcontrollers-microprocessors/stm32g030c8.html)
-[![Bare-metal](https://img.shields.io/badge/RTOS-None%20(Bare--metal)-orange)](https://github.com/m-elec76/Z35_sensor_board)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
 [![Main Firmware](https://img.shields.io/badge/Main%20Firmware-STM32G431-blueviolet)](https://github.com/m-elec76/Z35_main_board)
 [![Main Hardware](https://img.shields.io/badge/Main%20Hardware-PCB-yellow)](https://github.com/mzurmand/Z35_main_board)
