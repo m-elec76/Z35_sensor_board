@@ -104,7 +104,7 @@ The Z35 platform is split into four independent repositories:
 
 | Main & Sensor (Top) | Main & Sensor (Bottom) |
 | :---: | :---: |
-| ![Top](docs/images/board-top.jpg) | ![Bottom](docs/images/board-bottom.jpg) |
+| ![Top](Docs/images/board-top.jpg) | ![Bottom](Docs/images/board-bottom.jpg) |
 
 | Main Board | Sensor Board |
 | :---: | :---: |
