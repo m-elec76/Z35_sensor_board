@@ -100,6 +100,21 @@ The Z35 platform is split into four independent repositories:
 
 ---
 
+## 📸 Gallery
+
+| Main & Sensor (Top) | Main & Sensor (Bottom) |
+| :---: | :---: |
+| ![Top](docs/images/board-top.jpg) | ![Bottom](docs/images/board-bottom.jpg) |
+
+| Main Board | Sensor Board |
+| :---: | :---: |
+| ![Main Board](docs/images/main-board.jpg) | ![Sensor Board](docs/images/sensor-board.jpg) |
+
+### 🎥 Video Demo
+[![Z35 Demo Video](docs/images/board-top.jpg)](docs/videos/z35-demo.mp4)
+
+---
+
 ## 🏗 System Architecture
 
 ```mermaid
@@ -308,6 +323,22 @@ events that would otherwise lock the bus.
 | 2 | **Battery charge management**            | Implement voltage measurement via ADC (PA3) and control the charge enable pin (PC7). |
 | 3 | **Battery level telemetry**              | Send battery voltage via nRF24L01+ and display it on the Main Board LCD        |
 | 4 | **Persistent settings storage**          | Save the selected nRF mode and sensor node number (sensor_num)            |
+
+---
+
+## 🤝 Contributing & Collaboration
+
+We believe in the power of open-source and continuous improvement. This project is an ongoing journey. Whether you are an experienced embedded engineer or a passionate hobbyist, **you are highly welcome to contribute.**
+
+### 🛠️ How you can help:
+- **Firmware Development:** Help implement the features in the Roadmap (e.g., Multi-node support, or Battery charge management).
+- **Hardware Design:** Contribute to PCB and Schematic revisions.
+- **Bug Reports & Suggestions:** Found a bug or have an idea? Feel free to open an **Issue**.
+- **Code Review:** If you spot an inefficiency, feel free to open a **Pull Request**.
+
+*Let's build a robust, reliable, and fully open environmental controller together!*
+
+> 📖 **For detailed guidelines on coding standards, architecture rules, and how to submit a Pull Request, please read our [CONTRIBUTING.md](CONTRIBUTING.md).**
 
 ---
 
