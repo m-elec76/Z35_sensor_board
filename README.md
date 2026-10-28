@@ -3,8 +3,7 @@
 [![MCU](https://img.shields.io/badge/MCU-STM32G030-blue)](https://www.st.com/en/microcontrollers-microprocessors/stm32g030c8.html)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
 [![Main Firmware](https://img.shields.io/badge/Main%20Firmware-STM32G431-blueviolet)](https://github.com/m-elec76/Z35_main_board)
-[![Main Hardware](https://img.shields.io/badge/Main%20Hardware-PCB-yellow)](https://github.com/mzurmand/Z35_main_board)
-[![Sensor Hardware](https://img.shields.io/badge/Sensor%20Hardware-PCB-red)](https://github.com/mzurmand/Z35_sensor_board)
+[![Z35 Hardware](https://img.shields.io/badge/Z35%20Hardware-Altium-yellow)](https://github.com/mzurmand/Z35_Hardware)
 
 The **Sensor Board** of the Z35 platform — a low-power, bare-metal wireless
 sensor node that acquires temperature, humidity, gas concentration, ambient
@@ -66,8 +65,7 @@ The Z35 platform is split into four independent repositories:
 |------------|------|-------------|
 | [**z35-sensor-board**](https://github.com/m-elec76/Z35_sensor_board) *(this repo)* | Firmware | STM32G030C8T6 — acquires SHT40 / MQ-135 / LDR / PIR data and transmits wirelessly |
 | [**z35-main-board**](https://github.com/m-elec76/Z35_main_board) | Firmware | STM32G431RBT6 — receives sensor data, drives actuators, hosts the UI |
-| [**z35-main-hardware**](https://github.com/mzurmand/Z35_main_board) | Hardware | Main board PCB, schematic, BOM |
-| [**z35-sensor-hardware**](https://github.com/mzurmand/Z35_sensor_board) | Hardware | Sensor board PCB, schematic, BOM |
+| [**z35-hardware**](https://github.com/mzurmand/Z35_Hardware) | Hardware | Main board PCB, schematic, BOM |
 
 ---
 
@@ -382,8 +380,10 @@ limitations under the License.
 
 - **Firmware Author:** Mohammadali Abbasi <m.elec76a@gmail.com> 
   — Designed and implemented the complete firmware (Bare-metal architecture, I2C driver with recovery, ADC sampling, long-press state machine, and wireless TX integration).
+    🔗 [LinkedIn Profile](https://www.linkedin.com/in/mohammadali-abbasi/)
 - **Hardware Designer:** Mohammadreza Zourmand <mzselec@gmail.com> 
   — Custom 2-layer PCB for the sensor node.
+      🔗 [LinkedIn Profile](https://www.linkedin.com/in/mzourmand/)
 - **HAL Driver:** STMicroelectronics
 - **nRF24 Driver:** Ilia Motornyi — [nrf24l01-lib](https://github.com/elmot/nrf24l01-lib) (licensed under The Unlicense)
 
